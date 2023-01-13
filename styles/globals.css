@@ -1,3 +1,64 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+@layer base {
+    @font-face {
+        font-family: "Space Grotesk";
+        font-weight: 300;
+        src: url("../assets/fonts/SpaceGrotesk-Light.ttf");
+    }
+    @font-face {
+        font-family: "Space Grotesk";
+        font-weight: 400;
+        src: url("../assets/fonts/SpaceGrotesk-Regular.ttf");
+    }
+    @font-face {
+        font-family: "Space Grotesk";
+        font-weight: 500;
+        src: url("../assets/fonts/SpaceGrotesk-Medium.ttf");
+    }
+    @font-face {
+        font-family: "Space Grotesk";
+        font-weight: 600;
+        src: url("../assets/fonts/SpaceGrotesk-SemiBold.ttf");
+    }
+    @font-face {
+        font-family: "Space Grotesk";
+        font-weight: 700;
+        src: url("../assets/fonts/SpaceGrotesk-Bold.ttf");
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 300;
+        src: url("../assets/fonts/Montserrat-Light.ttf");
+    }
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 400;
+        src: url("../assets/fonts/Montserrat-Regular.ttf");
+    }
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 500;
+        src: url("../assets/fonts/Montserrat-Medium.ttf");
+    }
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 600;
+        src: url("../assets/fonts/Montserrat-SemiBold.ttf");
+    }
+    @font-face {
+        font-family: "Montserrat";
+        font-weight: 700;
+        src: url("../assets/fonts/Montserrat-Bold.ttf");
+    }
+
+}
