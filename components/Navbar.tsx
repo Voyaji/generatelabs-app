@@ -3,7 +3,7 @@ import Padding from './Padding'
 
 const Navbar:FunctionComponent = () => {
   return (
-    <nav className='fixed top-0 w-full h-20 bg-black'>
+    <nav className='fixed top-0 w-full h-20 bg-black z-[999]'>
         <Padding className='flex items-center h-full w-full'>
             <div className=''>
                 <img src="/images/generate_labs_app_logo.svg" alt="Generate Labs Logo"/>
