@@ -19,6 +19,7 @@ module.exports = withMT({
         },
         colors: {
             blackText: '#28292B',
+            iconBg: '#141B22',
             dirtyWhite: '#F5F5F5'
         },
         backgroundImage: {

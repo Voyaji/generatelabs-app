@@ -46,18 +46,3 @@ const Development: FunctionComponent = () => {
 }
 
 export default Development
-
-// <li className='border border-white px-4 py-8 text-white rounded-lg font-montserrat space-y-5'>
-// <h2 className='font-bold text-2xl'>Build</h2>
-// <div>Envision your ideas and seamlessly build the NFT Collection and Creation that you have in mind. The possibilities are endless using the Generate Labs No Code Tool and Software.</div>
-// </li>
-
-// <li className='border border-white px-4 py-8 text-white rounded-lg font-montserrat space-y-5'>
-// <h2 className='font-bold text-2xl'>Create</h2>
-// <div>Build and Create the Collection with your team using our intuitive tools designed for co-working. Easily share your workspace - together, or work solo. You decide with your personalized No Code Tools available with the App.</div>
-// </li>
-
-// <li className='border border-white px-4 py-8 text-white rounded-lg font-montserrat space-y-5'>
-// <h2 className='font-bold text-2xl'>Generate</h2>
-// <div>Upload, Arrange and Click Generate. Using the Tools you can seamlessly work and focus on other areas of building your NFT Project. Easily move across generating and building out the Contracts for your proposed NFT Collection. Generating has never been more efficient.</div>
-// </li>
