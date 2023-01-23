@@ -88,3 +88,9 @@
     }
 
 }
+
+@layer components{
+    .padding {
+        @apply px-[162px] py-1
+    }
+}

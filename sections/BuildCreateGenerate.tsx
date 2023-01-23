@@ -16,7 +16,11 @@ const BuildCreateGenerate: FunctionComponent = () => {
                     <div>
                         <span className='font-bold'>A No-Code Tool {" "}</span>
                         for Businesses, Artist, Designers and <br />
-                        Creators to build, create and generate <span>NFT Collections.</span>
+                        Creators to build, create and generate  {" "}
+                        <span className='relative inline-block'>
+                            <img className='absolute -bottom-2' src="/images/line_design_element_brush.svg" />
+                            NFT Collections.
+                        </span>
                     </div>
                 </div>
 
@@ -28,7 +32,7 @@ const BuildCreateGenerate: FunctionComponent = () => {
             </div>
 
             <img className='absolute top-0 left-16' src="/images/design_element_1.svg" />
-            <img className='absolute -left-16 top-1/2 -translate-y-1/2' src="/images/design_element_2.svg" />
+            <img className='absolute -left-16 top-1/2 -translate-y-1/4' src="/images/design_element_2.svg" />
             <img className='absolute left-1/2 top-[5rem] -translate-y-1/2' src="/images/design_element_3.svg" />
             <img className='absolute right-0 top-[5rem] translate-x-1/2' src="/images/design_element_4.svg" />
             <img className='absolute right-16 top-1/2' src="/images/design_element_5.svg" />
