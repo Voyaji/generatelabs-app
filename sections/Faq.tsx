@@ -4,11 +4,11 @@ import Padding from '../components/Padding'
 
 const Faq: FunctionComponent = () => {
     return (
-        <Padding className='py-32'>
+        <Padding className='!py-32'>
             <h1 className='text-center font-spaceGrotesk font-bold text-6xl'>FAQ</h1>
             <div className='space-y-2 mt-28'>
                 <Accordion
-                    header={<Fragment><h1>Do I need an NFT to use <a className='underline'>GenerateLabs.App</a>?</h1></Fragment>}
+                    header={<Fragment><h1>Do I need an NFT to use <a className='underline' href="">GenerateLabs.App</a>?</h1></Fragment>}
                     body={<Fragment><div>
                         You do not need an NFT to use <a className='underline'>GenerateLabs.App</a>.
                         <br />

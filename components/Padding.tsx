@@ -3,7 +3,7 @@ import React, {FunctionComponent, ReactNode} from 'react'
 interface Props {
     children: ReactNode;
     className?: string;
-    style?: any;
+    style?: React.CSSProperties;
 }
 
 const Padding:FunctionComponent<Props> = ({children, className, style}) => {

@@ -22,7 +22,7 @@ const Home: NextPage = () => {
             <BuildCreateGenerate />
             <Characters />
             <Development />
-            {/* <Faq /> */}
+            <Faq />
             {/* <Brands /> */}
             {/* <Newsletter /> */}
 

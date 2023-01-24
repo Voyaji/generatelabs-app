@@ -11,9 +11,10 @@ interface Props {
     theme?: string;
     header: ReactNode;
     body: ReactNode;
+    style?: React.CSSProperties;
 }
   
-const Accordion: FunctionComponent<Props> = ({theme = "light", header, body}) => {
+const Accordion: FunctionComponent<Props> = ({theme = "light", header, body, style}) => {
     const [isOpen, setIsOpen] = useState(false)
     const panel = useRef<HTMLDivElement>(null)
 
@@ -24,13 +25,13 @@ const Accordion: FunctionComponent<Props> = ({theme = "light", header, body}) =>
     return (
         <Fragment>
             {/* @ts-ignore */}
-            <AccordionMUI open={isOpen} className={`bg-${theme === 'light'? 'dirtyWhite' : 'black'} rounded-lg`}>
+            <AccordionMUI open={isOpen} className={`${theme === 'light'? ' bg-dirtyWhite' : 'bg-black'} rounded-lg`} style={style}>
                 {/* @ts-ignore */}
-                <AccordionHeader className={`px-10 py-6 rounded-lg font-spaceGrotesk font-bold text-xl ${theme === 'light'? 'text-blackText' : 'text-white hover:text-white'}`} 
+                <AccordionHeader className={`text-left px-10 py-6 rounded-lg font-spaceGrotesk font text-xl ${theme === 'light'? 'text-blackText' : 'text-white hover:text-white'}`} 
                     onClick={() => toggleOpen()}>
                     {header}
                 </AccordionHeader>
-                <AccordionBody className={`px-10 py-6 font-spaceGrotesk font-bold text-xl text-${theme === 'light'? 'blackText' : 'white'}`}>
+                <AccordionBody className={`px-10 py-6 border-2 rounded-lg font-spaceGrotesk text-xl ${theme === 'light'? 'text-blackText' : 'text-white'}`}>
                     {body}
                 </AccordionBody>
             </AccordionMUI>
