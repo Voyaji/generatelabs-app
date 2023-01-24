@@ -20,8 +20,8 @@ const BuildCreateGenerate: FunctionComponent = () => {
                 <div className='flex flex-col justify-center items-center font-montserrat text-3xl mt-6 z-50'>
                     <div className='lg:text-center'>
                         <span className='font-bold'>A No-Code Tool {" "}</span>
-                        for Businesses, Artist, Designers and 
-                        <span className='inline-block'>Creators to build, create and generate</span>
+                        for Businesses, Artist, Designers and
+                        <span className='inline-block xl:block'>Creators to build, create and generate</span>
                           {" "}
                         <span className='relative inline-block'>
                             <img className='absolute -bottom-2' src="/images/line_design_element_brush.svg" alt="brush" />
