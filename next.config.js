@@ -2,6 +2,8 @@
 module.exports = {
     reactStrictMode: true,
     images: {
-        domains: ["firebasestorage.googleapis.com"],
+        formats: ['image/avif', "image/webp"],
+        domains: ["firebasestorage.googleapis.com", "generate-labs-nextjs.vercel.app"],
+        dangerouslyAllowSVG: true,
     },
 }
