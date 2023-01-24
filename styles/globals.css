@@ -91,6 +91,10 @@
 
 @layer components{
     .padding {
-        @apply px-[162px] py-1
+        @apply  px-[18px]
+            sm:px-[32px]
+            md:px-[64px]
+            lg:px-[128px] lg:py-1
+            xl:px-[162px]
     }
 }

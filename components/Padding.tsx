@@ -11,8 +11,8 @@ const Padding:FunctionComponent<Props> = ({children, className}) => {
         px-[18px]
         sm:px-[32px]
         md:px-[64px]
-        lg:px-[128px]
-        xl:px-[162px] lg:py-1`}>
+        lg:px-[128px] lg:py-1
+        xl:px-[162px] `}>
         {children}
     </div>
   )

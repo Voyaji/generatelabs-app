@@ -24,6 +24,9 @@ module.exports = withMT({
         },
         backgroundImage: {
             'line-gradient': 'linear-gradient(180deg, #2E2929 5.43%, #B7886A 12.69%, #D2886E 19.18%, #CE503E 26%, #A25256 32.93%, #746681 40.09%, rgba(64, 109, 158, 0.19) 51.57%, rgba(255, 255, 255, 1) 60.03%)'
+        },
+        screens: {
+            sm: '430px'
         }
     },
   },
