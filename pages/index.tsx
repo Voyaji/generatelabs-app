@@ -20,7 +20,7 @@ const Home: NextPage = () => {
             <Navbar />
 
             <BuildCreateGenerate />
-            {/* <Characters /> */}
+            <Characters />
             {/* <Development /> */}
             {/* <Faq /> */}
             {/* <Brands /> */}

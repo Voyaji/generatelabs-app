@@ -3,16 +3,19 @@ import React, {FunctionComponent, ReactNode} from 'react'
 interface Props {
     children: ReactNode;
     className?: string;
+    style?: any;
 }
 
-const Padding:FunctionComponent<Props> = ({children, className}) => {
+const Padding:FunctionComponent<Props> = ({children, className, style}) => {
   return (
-    <div className={`${className} 
+    <div className={` 
         px-[18px]
         sm:px-[32px]
         md:px-[64px]
         lg:px-[128px] lg:py-1
-        xl:px-[162px] `}>
+        xl:px-[162px] 
+        ${className}`}
+        style={style}>
         {children}
     </div>
   )
