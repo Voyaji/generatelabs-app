@@ -3,6 +3,6 @@ module.exports = {
   reactStrictMode: true,
   images: {
     domains: ["firebasestorage.googleapis.com"],
-    formats: ["image/svg"],
+    formats: ["image/webp"],
 },
 }

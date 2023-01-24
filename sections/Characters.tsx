@@ -16,8 +16,8 @@ const Characters: FunctionComponent = () => {
             >
                 <div className='grid grid-rows-2 grid-cols-3 gap-2 gap-y-6
                     md:grid-cols-4'>
-                    <Image width={203} height={311} src="https://firebasestorage.googleapis.com/v0/b/generate-labs.appspot.com/o/nft_card_1.svg?alt=media&token=7e40d4b9-c398-46cd-b171-d226e904cb7e" priority alt="NFT Card"/>
-                    <Image width={203} height={311} src="https://firebasestorage.googleapis.com/v0/b/generate-labs.appspot.com/o/nft_card_2.svg?alt=media&token=6b308de7-c036-4b35-be62-8d81d99c82c1" priority alt="NFT Card"/>
+                    <Image width={203} height={311} src="https://generate-labs-nextjs.vercel.app/images/nft_card_1.svg" priority alt="NFT Card"/>
+                    <Image width={203} height={311} src="https://generate-labs-nextjs.vercel.app/images/nft_card_2.svg" priority alt="NFT Card"/>
                     <Image width={203} height={311} src="https://generate-labs-nextjs.vercel.app/images/nft_card_3.svg" priority alt="NFT Card"/>
                     
                     <Image width={203} height={311} src="https://generate-labs-nextjs.vercel.app/images/nft_card_4.svg" priority alt="NFT Card"/>
