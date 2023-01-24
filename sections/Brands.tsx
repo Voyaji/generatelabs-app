@@ -6,40 +6,40 @@ const LaptopBrands: FunctionComponent = () => {
         <>
             <div className='grid grid-cols-5 xl:padding py-0 mb-12'>
                 <div className='flex justify-center items-center py-8 '>
-                    <img src="/images/logo_1.svg" alt="" />
+                    <img src="/images/logo_1.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center py-8 bg-iconBg'>
-                    <img src="/images/logo_2.svg" alt="" />
+                    <img src="/images/logo_2.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center py-8 '>
-                    <img src="/images/logo_3.svg" alt="" />
+                    <img src="/images/logo_3.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center py-8 bg-iconBg'>
-                    <img src="/images/logo_4.svg" alt="" />
+                    <img src="/images/logo_4.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center py-8 '>
-                    <img src="/images/logo_5.svg" alt="" />
+                    <img src="/images/logo_5.svg" alt="Brand Logo" />
                 </div>
             </div>
 
             <div className='grid grid-cols-6 mb-36 mt-0'>
                 <div className='flex justify-center items-center py-8 bg-iconBg'>
-                    <img src="/images/logo_6.svg" alt="" />
+                    <img src="/images/logo_6.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center py-8 '>
-                    <img src="/images/logo_7.svg" alt="" />
+                    <img src="/images/logo_7.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center py-8 bg-iconBg'>
-                    <img src="/images/logo_8.svg" alt="" />
+                    <img src="/images/logo_8.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center py-8 '>
-                    <img src="/images/logo_9.svg" alt="" />
+                    <img src="/images/logo_9.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center py-8 bg-iconBg'>
-                    <img src="/images/logo_10.svg" alt="" />
+                    <img src="/images/logo_10.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center py-8 '>
-                    <img src="/images/logo_11.svg" alt="" />
+                    <img src="/images/logo_11.svg" alt="Brand Logo" />
                 </div>
             </div>
         </>
@@ -51,38 +51,38 @@ const MobileBrands: FunctionComponent = () => {
         <>
             <div className='grid grid-cols-2 grid-rows-10 py-0'>
                 <div className='flex justify-center items-center h-24 px-2 '>
-                    <img src="/images/logo_1.svg" alt="" />
+                    <img src="/images/logo_1.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center h-24 px-2 bg-iconBg'>
-                    <img src="/images/logo_2.svg" alt="" />
+                    <img src="/images/logo_2.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center h-24 px-2 bg-iconBg'>
-                    <img src="/images/logo_3.svg" alt="" />
+                    <img src="/images/logo_3.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center h-24 px-2 '>
-                    <img src="/images/logo_4.svg" alt="" />
+                    <img src="/images/logo_4.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center h-24 px-2 '>
-                    <img src="/images/logo_5.svg" alt="" />
+                    <img src="/images/logo_5.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center h-24 px-2 bg-iconBg'>
-                    <img src="/images/logo_6.svg" alt="" />
+                    <img src="/images/logo_6.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center h-24 px-2 bg-iconBg'>
-                    <img src="/images/logo_7.svg" alt="" />
+                    <img src="/images/logo_8.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center h-24 px-2 '>
-                    <img src="/images/logo_8.svg" alt="" />
+                    <img src="/images/logo_7.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center h-24 px-2 '>
-                    <img src="/images/logo_9.svg" alt="" />
+                    <img src="/images/logo_9.svg" alt="Brand Logo" />
                 </div>
                 <div className='flex justify-center items-center h-24 px-2 bg-iconBg'>
-                    <img src="/images/logo_10.svg" alt="" />
+                    <img src="/images/logo_10.svg" alt="Brand Logo" />
                 </div>
             </div>
             <div className='flex justify-center items-center h-24 px-2 '>
-                <img src="/images/logo_11.svg" alt="" />
+                <img src="/images/logo_11.svg" alt="Brand Logo" />
             </div>
         </>
     )

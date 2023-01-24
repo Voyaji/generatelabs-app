@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Brands from '../sections/Brands'
 import BuildCreateGenerate from '../sections/BuildCreateGenerate'
 import Characters from '../sections/Characters'
+import Design from '../sections/Design'
 import Development from '../sections/Development'
 import Faq from '../sections/Faq'
 import Newsletter from '../sections/Newsletter'
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
 
             <BuildCreateGenerate />
             <Characters />
+            <Design />
             <Development />
             <Faq />
             <Brands />
