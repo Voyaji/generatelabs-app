@@ -4,9 +4,10 @@ interface Props {
     children: ReactNode;
     className?: string;
     style?: React.CSSProperties;
+    id?: string
 }
 
-const Padding:FunctionComponent<Props> = ({children, className, style}) => {
+const Padding:FunctionComponent<Props> = ({children, className, style, id}) => {
   return (
     <div className={` 
         px-[18px]
@@ -15,7 +16,8 @@ const Padding:FunctionComponent<Props> = ({children, className, style}) => {
         lg:px-[128px] lg:py-1
         xl:px-[162px] 
         ${className}`}
-        style={style}>
+        style={style}
+        id={id}>
         {children}
     </div>
   )

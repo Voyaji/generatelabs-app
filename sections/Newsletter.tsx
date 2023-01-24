@@ -9,7 +9,8 @@ const Newsletter: FunctionComponent = () => {
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
                 backgroundPosition: '75%'
-            }}>
+            }}
+            id="newsletter">
 
             <Padding className='!pt-16 !pb-7'>
                 <div className='flex flex-col

@@ -2,12 +2,13 @@ import React, { FunctionComponent } from 'react'
 
 const BuildCreateGenerate: FunctionComponent = () => {
     return (
-        <section className='relative overflow-hidden pt-[80px]'>
+        <section className='relative overflow-hidden pt-[80px]' id="create">
             <div className='flex flex-col justify-center min-h-[calc(100vh-80px)] w-full text-black padding py-8 space-y-14
                 lg:items-center'>
                 
                 <div className='flex flex-col justify-center items-start font-spaceGrotesk font-bold text-5xl sm:text-7xl
-                    xl:flex-row lg:items-center'>
+                    xl:flex-row lg:items-center'
+                    >
                     <h1>Build. 
                     <span className='block lg:inline-block'>Create.</span></h1>
                     <div className='relative lg:ml-3'>

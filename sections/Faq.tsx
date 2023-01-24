@@ -4,7 +4,7 @@ import Padding from '../components/Padding'
 
 const Faq: FunctionComponent = () => {
     return (
-        <Padding className='!py-32'>
+        <Padding className='!py-32' id="faq">
             <h1 className='text-center font-spaceGrotesk font-bold text-6xl'>FAQ</h1>
             <div className='space-y-2 mt-28'>
                 <Accordion

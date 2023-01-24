@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React, { FunctionComponent } from 'react'
 import Padding from './Padding'
 
@@ -15,10 +16,10 @@ const Navbar:FunctionComponent = () => {
                 lg:flex
                 flex-1 justify-center items-center space-x-10
                 font-montserrat text-xl font-light text-white'>
-                <a href="#">Create</a>
-                <a href="#">RoadMap</a>
-                <a href="#">FAQ</a>
-                <a href="#">Sign-up</a>
+                <Link href="#create">Create</Link>
+                <Link href="#development">Development</Link>
+                <Link href="#faq">FAQ</Link>
+                <Link href="#newsletter">Sign-up</Link>
             </div>
 
             <div className='hidden 

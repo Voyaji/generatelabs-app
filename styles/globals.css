@@ -9,6 +9,12 @@
 }
 
 @layer base {
+    html {
+        @apply !scroll-smooth;
+    }
+}
+
+@layer base {
     @font-face {
         font-family: "Space Grotesk";
         font-weight: 300;

@@ -4,10 +4,10 @@ import Padding from '../components/Padding'
 const Development: FunctionComponent = () => {
 
     return (
-        <section className='bg-black'>
+        <section className='bg-black' id="development">
             <Padding className='space-y-20 !py-24'>
                 <h1 className='text-white text-center font-spaceGrotesk text-4xl font-bold
-                    lg:text-4xl'>DEVELOPMENT</h1>
+                    lg:text-6xl'>DEVELOPMENT</h1>
 
                 <div className='flex w-full justify-center h-auto relative
                     after:hidden after:lg:block after:absolute after:content-[" "] after:w-[5px] after:h-full after:bg-gradient-to-b after:bg-line-gradient'>
