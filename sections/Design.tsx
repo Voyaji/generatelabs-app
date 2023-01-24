@@ -14,7 +14,7 @@ const Design: FunctionComponent = () => {
                             We're developing an easy to use No-Code Software for users who want to build, create and generate NFTs.
                         </h2>
                     </div>
-                <img className="lg:w-1/2" src="/images/Design_Area.svg" />
+                <img className="lg:w-1/2" src="/images/Design_Area.svg" alt="Design Image"/>
             </div>
         </div>
     )
