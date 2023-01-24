@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React, { FunctionComponent } from 'react'
 import Padding from './Padding'
@@ -24,8 +25,12 @@ const Navbar:FunctionComponent = () => {
 
             <div className='hidden 
                 lg:flex lg:space-x-4'>
-                <img src="/images/Twitter-Negative.svg" alt="Twitter Logo"/>
-                <img src="/images/Medium-Negative.svg" alt="Medium Logo"/>
+                <Link href="https://twitter.com/Voyajiofficial">
+                    <Image className='cursor-pointer' src="/images/Twitter-Negative.svg" alt="Twitter Logo" width={24} height={24}/>
+                </Link>
+                <Link href="https://generatelabs.medium.com/">
+                    <Image className='cursor-pointer' src="/images/Medium-Negative.svg" alt="Medium Logo" width={24} height={24}/>
+                </Link>
             </div>
         </Padding>
     </nav>

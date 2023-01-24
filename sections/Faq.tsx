@@ -8,9 +8,9 @@ const Faq: FunctionComponent = () => {
             <h1 className='text-center font-spaceGrotesk font-bold text-6xl'>FAQ</h1>
             <div className='space-y-2 mt-28'>
                 <Accordion
-                    header={<Fragment><h1>Do I need an NFT to use <a className='underline' href="">GenerateLabs.App</a>?</h1></Fragment>}
+                    header={<Fragment><h1>Do I need an NFT to use <span className='underline'>GenerateLabs.App</span>?</h1></Fragment>}
                     body={<Fragment><div>
-                        You do not need an NFT to use <a className='underline'>GenerateLabs.App</a>.
+                        You do not need an NFT to use <span className='underline'>GenerateLabs.App</span>.
                         <br />
                         <br />
                         Simply use your Ethereum address to create an account and start to build. Ownership of a Generate Labs and Voyaji Official NFT will entail a user to Beta Access.

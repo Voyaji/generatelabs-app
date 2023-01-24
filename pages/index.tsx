@@ -13,11 +13,12 @@ const Home: NextPage = () => {
     return (
         <main>
             <Head>
+                <html lang="en" />
                 <title>Generate Labs</title>
                 <meta name="author" content="Lyzer Merck Bautista" />
                 <meta
                     name="description"
-                    content="Generate Labs is ... some description"
+                    content="Generate, Create and Deploy your NFTs with our NFT Generator.A No-Code Tool for Businesses, Artists, Designers and Creators to build, create and generate NFT Collections."
                 />
 
                 <meta property="og:site_name" content="Generate Labs" />
