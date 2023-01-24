@@ -10,7 +10,7 @@ const Design: FunctionComponent = () => {
                 lg:flex-row'>
                     <div>
                         <h1 className='text-center font-spaceGrotesk font-bold text-6xl mb-20'>The Design</h1>
-                        <h2 className='font-montserrat text-3xl padding lg:pr-0'>
+                        <h2 className='font-montserrat text-3xl padding lg:pr-0 xl:px-[162px]'>
                             We're developing an easy to use No-Code Software for users who want to build, create and generate NFTs.
                         </h2>
                     </div>
