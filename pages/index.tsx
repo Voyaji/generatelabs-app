@@ -21,7 +21,7 @@ const Home: NextPage = () => {
 
             <BuildCreateGenerate />
             <Characters />
-            {/* <Development /> */}
+            <Development />
             {/* <Faq /> */}
             {/* <Brands /> */}
             {/* <Newsletter /> */}
