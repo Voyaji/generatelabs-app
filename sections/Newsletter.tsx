@@ -17,12 +17,12 @@ const Newsletter: FunctionComponent = () => {
                     lg:flex-row lg:space-x-8'>
                     <div className='flex flex-col space-y-4 items-center
                         lg:items-start'>
-                        <span className='font-montserrat text-xl text-blackText font-bold 
+                        <span className='font-montserrat text-xl text-white font-bold 
                             lg:font-normal'>Sign up for</span>
                         <h1 className='text-white font-spaceGrotesk font-bold text-4xl
                             md:text-5xl
                             xl:text-7xl'>NEWSLETTER</h1>
-                        <span className='font-montserrat text-lg  text-blackText
+                        <span className='font-montserrat text-lg  text-white
                             lg:text-xl'>Are you a Creator Interested to build, create and generate your own NFTs? Sign up for Beta by following the  link provided. </span>
                     </div>
 
