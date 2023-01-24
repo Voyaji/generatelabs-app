@@ -18,13 +18,13 @@ const Home: NextPage = () => {
             </Head>
 
             <Navbar />
-
+{/* 
             <BuildCreateGenerate />
             <Characters />
             <Development />
             <Faq />
             <Brands />
-            <Newsletter />
+            <Newsletter /> */}
 
         </main>
     )

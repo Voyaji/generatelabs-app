@@ -7,7 +7,12 @@ interface Props {
 
 const Padding:FunctionComponent<Props> = ({children, className}) => {
   return (
-    <div className={`${className} px-[162px] py-1`}>
+    <div className={`${className} 
+        px-[18px]
+        sm:px-[32px]
+        md:px-[64px]
+        lg:px-[128px]
+        xl:px-[162px] lg:py-1`}>
         {children}
     </div>
   )
