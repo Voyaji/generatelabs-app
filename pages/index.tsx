@@ -14,6 +14,22 @@ const Home: NextPage = () => {
         <main>
             <Head>
                 <title>Generate Labs</title>
+                <meta name="author" content="Lyzer Merck Bautista" />
+                <meta
+                    name="description"
+                    content="Generate Labs is ... some description"
+                />
+
+                <meta property="og:site_name" content="Generate Labs" />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://generate-labs-nextjs.vercel.app/" />
+                <meta property="og:title" content="Generate Labs" />
+
+                <meta property="twitter:site" content="@generatelabs" />
+                <meta property="twitter:handler" content="@generatelabs" />
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta name="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/generate-labs-f25b7.appspot.com/o/generate-labs-banner-min.png?alt=media&token=8fc559f0-b164-4ad5-ae01-6541cbb35cee" />
+                
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
