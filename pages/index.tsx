@@ -13,7 +13,6 @@ const Home: NextPage = () => {
     return (
         <main>
             <Head>
-                <html lang="en" />
                 <title>Generate Labs</title>
                 <meta name="author" content="Lyzer Merck Bautista" />
                 <meta
