@@ -23,7 +23,7 @@ const Home: NextPage = () => {
             <Characters />
             <Development />
             <Faq />
-            {/* <Brands /> */}
+            <Brands />
             {/* <Newsletter /> */}
 
         </main>

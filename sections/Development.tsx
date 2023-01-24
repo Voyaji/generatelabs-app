@@ -6,7 +6,8 @@ const Development: FunctionComponent = () => {
     return (
         <section className='bg-black'>
             <Padding className='space-y-20 !py-24'>
-                <h1 className='text-white text-center font-spaceGrotesk text-6xl font-bold'>DEVELOPMENT</h1>
+                <h1 className='text-white text-center font-spaceGrotesk text-4xl font-bold
+                    lg:text-4xl'>DEVELOPMENT</h1>
 
                 <div className='flex w-full justify-center h-auto relative
                     after:hidden after:lg:block after:absolute after:content-[" "] after:w-[5px] after:h-full after:bg-gradient-to-b after:bg-line-gradient'>
