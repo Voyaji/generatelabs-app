@@ -24,7 +24,7 @@ const Home: NextPage = () => {
             <Development />
             <Faq />
             <Brands />
-            {/* <Newsletter /> */}
+            <Newsletter />
 
         </main>
     )
