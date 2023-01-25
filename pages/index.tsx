@@ -25,13 +25,22 @@ const Home: NextPage = () => {
                 <meta property="og:url" content="https://generate-labs-nextjs.vercel.app/" />
                 <meta property="og:title" content="Generate Labs" />
                 <meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/generate-labs-f25b7.appspot.com/o/gen-labs-banner.png?alt=media&token=8b3f3ede-2f0d-47c1-81bb-831452735d2c" />
+                <meta
+                    name="og:description"
+                    content="Generate, Create and Deploy your NFTs with our NFT Generator.A No-Code Tool for Businesses, Artists, Designers and Creators to build, create and generate NFT Collections."
+                />
 
                 <meta property="twitter:site" content="@generatelabs" />
                 <meta property="twitter:handler" content="@generatelabs" />
                 <meta property="twitter:card" content="summary_large_image" />
+                <meta
+                    name="twitter:description"
+                    content="Generate, Create and Deploy your NFTs with our NFT Generator.A No-Code Tool for Businesses, Artists, Designers and Creators to build, create and generate NFT Collections."
+                />
                 <meta name="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/generate-labs-f25b7.appspot.com/o/gen-labs-banner.png?alt=media&token=8b3f3ede-2f0d-47c1-81bb-831452735d2c" />
 
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/generate-labs-f25b7.appspot.com/o/favicon-16x16.png?alt=media&token=7380c37c-e01e-4230-92b5-193396e8341d" sizes='16x16'/>
+                {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>
 
             <Navbar />
