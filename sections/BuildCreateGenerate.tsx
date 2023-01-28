@@ -13,7 +13,7 @@ const BuildCreateGenerate: FunctionComponent = () => {
                     <span className='block lg:inline-block'>Create.</span></h1>
                     <div className='relative lg:ml-3'>
                         <img className="absolute inset-0 -translate-y-3 pointer-events-none" src="/images/circle_design_element_brush.svg" alt="Brush"/>
-                        <h1>Generate</h1>
+                        <h1>Generate.</h1>
                     </div>
                 </div>
 
@@ -39,10 +39,10 @@ const BuildCreateGenerate: FunctionComponent = () => {
             </div>
 
             <img className='hidden lg:block absolute top-0 left-16' src="/images/design_element_1.svg" alt="Shape"/>
-            <img className='hidden 2xl:block absolute -left-16 top-1/2 -translate-y-1/4' src="/images/design_element_2.svg" alt="Shape"/>
+            <img className='hidden 2xl:block absolute -left-16 top-[70%] -translate-y-1/4' src="/images/design_element_2.svg" alt="Shape"/>
             <img className='hidden lg:block absolute left-1/2 top-[5rem] -translate-y-1/2' src="/images/design_element_3.svg" alt="Shape"/>
             <img className='hidden lg:block absolute right-0 top-[5rem] translate-x-1/2' src="/images/design_element_4.svg" alt="Shape"/>
-            <img className='hidden 2xl:block absolute right-16 top-1/2' src="/images/design_element_5.svg" alt="Shape"/>
+            <img className='hidden 2xl:block absolute right-16 top-[65%]' src="/images/design_element_5.svg" alt="Shape"/>
         </section>
     )
 }
