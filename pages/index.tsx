@@ -39,8 +39,12 @@ const Home: NextPage = () => {
                 />
                 <meta name="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/generate-labs-f25b7.appspot.com/o/gen-labs-banner.png?alt=media&token=8b3f3ede-2f0d-47c1-81bb-831452735d2c" />
 
-                <link rel="icon" href="https://firebasestorage.googleapis.com/v0/b/generate-labs-f25b7.appspot.com/o/favicon-16x16.png?alt=media&token=7380c37c-e01e-4230-92b5-193396e8341d" sizes='16x16'/>
-                {/* <link rel="icon" href="/favicon.ico" /> */}
+                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+                <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+                <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png"/>
+                <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png"/>
+                <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
             </Head>
 
             <Navbar />

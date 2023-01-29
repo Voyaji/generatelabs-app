@@ -25,7 +25,7 @@ const Navbar:FunctionComponent = () => {
 
             <div className='hidden 
                 lg:flex lg:space-x-4'>
-                <Link href="https://twitter.com/Voyajiofficial">
+                <Link href="https://twitter.com/generatelabsapp">
                     <Image className='cursor-pointer' src="/images/Twitter-Negative.svg" alt="Twitter Logo" width={24} height={24}/>
                 </Link>
                 <Link href="https://generatelabs.medium.com/">
